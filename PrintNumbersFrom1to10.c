@@ -1,13 +1,23 @@
-
 // Print numbers from 1 to 10
-#include <stdio.h>
 
-int main() {
-  int i;
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int n;
+ clrscr();
 
-for(i=1;i<11;i++)
-  {
-    printf("%d \n", i);
-  }
-  return 0;
+ printf("\n"); //for new line
+
+ // While Loop
+
+ n=1;         //Initialize
+ while(n<=10)   // Condition
+ {
+  printf(" %d",n);
+  n++;    // Increment
+ }
+
+ getch();
+
 }
